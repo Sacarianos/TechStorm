@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up</title>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootswatch/3.2.0/superhero/bootstrap.min.css">
+
+	<!-- Optional theme -->
+
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar navbar-default" role="navigation">
+    <div class="container" id = "navbar">
+  <div class="container-fluid ">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">TechStorm</a>
+    </div>
+    
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Categories <span class="caret"></span></a></li>
+        <li><a href="#">Recent</a></li>
+        <li><a href="#">Hot</a></li>
+        <li><a href="#">My Projects</a></li>
+      </ul>
+
+      <form class="navbar-form navbar-right" role="search">
+        <div class="input-group add">
+          <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
+          <div class="input-group-btn">
+          <button type="submit" class="btn btn-default">
+          <i class="glyphicon glyphicon-search "></i></button> 
+
+          </div>
+           
+        </div>
+        <button type = "button" class="btn btn-warning  ">Login</button>
+       <button type = "button" class="btn btn-success ">Sign up</button>
+      </form>
+
+    </div><!-- /.navbar-collapse -->
+</div>
+  </div><!-- /.container-fluid -->
+   
+</nav>  
+  </header>
+
+    <form class="form-horizontal">
+  <fieldset>
+    <div class="col-lg-11 col-lg-offset-.5">
+    <legend>Sign Up</legend>
+    </div>
+
+    <div class="form-group">
+      <label for="inputFirstName" class="col-lg-2 control-label">First Name</label>
+      <div class="col-lg-4">
+        <input type="text" class="form-control" id="inputFirstName" placeholder="First Name">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="inputLastName" class="col-lg-2 control-label">Last Name</label>
+      <div class="col-lg-4">
+        <input type="text" class="form-control" id="inputLastName" placeholder="Last Name">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="inputEmail" class="col-lg-2 control-label">Email</label>
+      <div class="col-lg-4">
+        <input type="text" class="form-control" id="inputEmail" placeholder="Email">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="inputPassword" class="col-lg-2 control-label">Password</label>
+      <div class="col-lg-4">
+        <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+        <span class="help-block">The password must be at least 8 characters long</span>
+        
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="inputPassword2" class="col-lg-2 control-label">Confirm Password</label>
+      <div class="col-lg-4">
+        <input type="password" class="form-control" id="inputPassword2" placeholder="Confirm Password">
+        
+        
+      </div>
+    </div>
+  
+   
+    
+    <div class="form-group">
+      <div class="col-lg-10 col-lg-offset-2">
+      
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </fieldset>
+</form>
+</body>
