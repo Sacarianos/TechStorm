@@ -1,4 +1,2 @@
-TechStorm
-=========
-
-ICOM5016 Poject
+Tech Storm- ICOM5016 project
+====================
